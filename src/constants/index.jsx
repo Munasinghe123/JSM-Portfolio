@@ -28,10 +28,12 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: "David Stones",
-  role: "Full Stack Developer",
+  name: "Jayathu Sankalpa Munasinghe",
+  role: "Undergraduate",
   subheading:
-    "With 10 years of full-stack development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
+  "Third-year Software Engineering undergraduate with hands-on experience in full-stack web development."+
+  "Passionate about building scalable applications and collaborating in team environments to deliver high-quality solutions."+
+  "Seeking an opportunity to contribute and grow in a dynamic software development role."
 };
 
 export const PROJECTS = [
