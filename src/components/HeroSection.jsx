@@ -17,7 +17,7 @@ const HeroSection=()=>{
                     {PROFILE.name}
                 </h1>
 
-                <h2 className="hero-subheading bg-gradient-to-b from-pink-200 to purple-300 bg-clip-text text-center text-2xl
+                <h2 className="mt-[10px] hero-subheading bg-gradient-to-b from-pink-200 to purple-300 bg-clip-text text-center text-2xl
                 tracking-tigher text-transparent">
                     {PROFILE.role}
                 </h2>

@@ -1,10 +1,5 @@
-import project1 from "../assets/project1.webp";
-import project2 from "../assets/project2.webp";
-import project3 from "../assets/project3.webp";
-import project4 from "../assets/project4.webp";
-import project5 from "../assets/project5.webp";
-import project6 from "../assets/project6.webp";
-import personImage from "../assets/testimonial.webp";
+import academix from '../assets/academix.png'
+import Employee from '../assets/Employee-management.png'
 
 import {
   RiHtml5Line,
@@ -39,10 +34,11 @@ export const PROFILE = {
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "Academix- Online Educational Platform (January 2025 to Present)",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
+    "This is an individual project where I’m developing an online learning platform using the MERN stack and Docker."+
+    " Implements microservices architecture for course management, user authentication, and payment processing." ,
+    techStack: ["React", "Node.js", "Express", "MongoDB", "Docker"],
     imgSrc: project1,
     link: "https://example-ecommerce.com",
   },
@@ -72,25 +68,7 @@ export const PROJECTS = [
     techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
     imgSrc: project4,
     link: "https://example-blogplatform.com",
-  },
-  {
-    id: 5,
-    title: "Task Management App",
-    description:
-      "A task management tool with user authentication, reminders, and collaboration features.",
-    techStack: ["Angular", "Firebase", "Material UI"],
-    imgSrc: project5,
-    link: "https://example-taskapp.com",
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
-    imgSrc: project6,
-    link: "https://example-learningplatform.com",
-  },
+  }
 ];
 
 export const SKILLS = [
