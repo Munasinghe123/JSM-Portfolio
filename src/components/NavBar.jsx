@@ -56,7 +56,7 @@ const Navbar = () => {
                 {/* Mobile Navbar */}
                 <div className="py-2 backdrop-blur-md lg:hidden">
                     <div className="flex items-center justify-between">
-                        <a href="#" className="pl-2 uppercase">Jayathu Sankalpa</a>
+                        <a href="#" className="pl-2 uppercase">Jayathu Sankalpa Munasinghe</a>
                         <button
                             className="focus:outline-none lg:hidden"
                             onClick={toggleMobileMenu}
