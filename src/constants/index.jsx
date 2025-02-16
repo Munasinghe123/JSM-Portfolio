@@ -1,10 +1,7 @@
-import project1 from "../assets/project1.webp";
-import project2 from "../assets/project2.webp";
-import project3 from "../assets/project3.webp";
-import project4 from "../assets/project4.webp";
-import project5 from "../assets/project5.webp";
-import project6 from "../assets/project6.webp";
-import personImage from "../assets/testimonial.webp";
+import academix from '../assets/academix.png'
+import Employee from '../assets/Employee-management.png'
+import color from '../assets/colorAnalyser.png'
+import classEase from '../assets/classEase.png'
 
 import {
   RiHtml5Line,
@@ -28,67 +25,59 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: "David Stones",
-  role: "Full Stack Developer",
+  name: "Jayathu Sankalpa Munasinghe",
+  role: "Undergraduate",
   subheading:
-    "With 10 years of full-stack development experience, I build efficient, scalable web applications. Not on the job hunt, but always curious about interesting projects.",
+  "Third-year Software Engineering undergraduate with hands-on experience in full-stack web development."+
+  "Passionate about building scalable applications and collaborating in team environments to deliver high-quality solutions."+
+  "Seeking an opportunity to contribute and grow in a dynamic software development role."
 };
 
 export const PROJECTS = [
   {
     id: 1,
-    title: "E-commerce Website",
+    title: "Academix- Online Educational Platform",
     description:
-      "A full-featured e-commerce website built with React and Node.js. It includes user authentication, product management, and an integrated payment gateway.",
-    techStack: ["React", "Node.js", "Express", "MongoDB"],
-    imgSrc: project1,
-    link: "https://example-ecommerce.com",
+    "This is an individual project where I’m developing an online learning platform using the MERN stack and Docker."+
+    " Implements microservices architecture for course management, user authentication, and payment processing." ,
+    techStack: ["React", "Node.js", "Express", "MongoDB", "Docker","Tailwind css"],
+    imgSrc:academix,
+    // link: "https://example-ecommerce.com",
   },
   {
     id: 2,
-    title: "Social Media App",
+    title: "ClassEase - Class Management System",
     description:
-      "A real-time social media app with chat, notifications, and a customizable profile page. Built with React, Firebase, and Redux for state management.",
-    techStack: ["React", "Firebase", "Redux"],
-    imgSrc: project2,
-    link: "https://example-socialapp.com",
+      "This is an individual project that I developed using the MERN stack with JWT-based role-based access control."+ 
+      "Supports three access levels: Admin, Faculty Member, and Student."+ 
+      "Admins manage faculty, students, courses, and timetables while ensuring no scheduling conflicts."+ 
+      "Faculty and students can log in to access their respective accounts and timetables.",
+    techStack: ["React", "Node.js", "Express", "MongoDB"],
+    imgSrc: classEase,
+    // link: "https://example-socialapp.com",
   },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "Employee Management System",
     description:
-      "A personal portfolio website showcasing projects and skills. Fully responsive and optimized for performance.",
-    techStack: ["Next.js", "Tailwind CSS"],
-    imgSrc: project3,
-    link: "https://myportfolio.com",
+    "This is a project that I developed as a part of the Second year First semester group project for an Online Ecommerce System using the MERN stack,"+
+    "implementing role-based access control with Express sessions"+
+    "Supports two access levels as Admin and Employee."+ 
+    "Developed a dynamic salary calculation feature and automated PDF report generation.",
+    techStack: ["React", "Node.js", "Express", "MongoDB"],
+    imgSrc: Employee,
+    // link: "https://myportfolio.com",
   },
   {
     id: 4,
-    title: "Blog Platform",
+    title: "Image Processing System",
     description:
-      "A blogging platform with a content management system, user authentication, and an intuitive editor.",
-    techStack: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS"],
-    imgSrc: project4,
-    link: "https://example-blogplatform.com",
-  },
-  {
-    id: 5,
-    title: "Task Management App",
-    description:
-      "A task management tool with user authentication, reminders, and collaboration features.",
-    techStack: ["Angular", "Firebase", "Material UI"],
-    imgSrc: project5,
-    link: "https://example-taskapp.com",
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "An e-learning platform offering video courses, quizzes, and progress tracking for students.",
-    techStack: ["Vue.js", "Node.js", "MongoDB", "Express"],
-    imgSrc: project6,
-    link: "https://example-learningplatform.com",
-  },
+    "This is an individual project developed using the MERN stack and Sharp library where users upload images of waste water,"+ 
+    "and the system calculates the required chemical percentage  to purify the waste water.",
+    techStack: ["React", "Node.js", "Express", "MongoDB"],
+    imgSrc: color,
+    // link: "https://example-blogplatform.com",
+  }
 ];
 
 export const SKILLS = [
@@ -121,43 +110,8 @@ export const SKILLS = [
     icon: <RiCodeSSlashLine className="text-teal-400" />,
   },
   {
-    name: "GraphQL",
+    name: "Docker",
     icon: <RiGitBranchLine className="text-pink-400" />,
-  },
-];
-
-export const EXPERIENCES = [
-  {
-    yearRange: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description:
-      "Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.",
-    techStack: ["Javascript", "React.js", "Next.js", "MongoDB"],
-  },
-  {
-    yearRange: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description:
-      "Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.",
-    techStack: ["HTML", "CSS", "Vue.js", "MySQL"],
-  },
-  {
-    yearRange: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description:
-      "Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
-    techStack: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    yearRange: "2020 - 2021",
-    role: "Software Engineer",
-    company: "PayPal",
-    description:
-      "Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.",
-    techStack: ["Ruby", "Rails", "PHP", "SQLite"],
   },
 ];
 
@@ -187,11 +141,3 @@ export const EDUCATION = [
       "Earned a certification in advanced React.js development, including hooks, context API, and performance optimization.",
   },
 ];
-
-export const TESTIMONIAL = {
-  name: "Sarah Doe",
-  title: "CEO, TechCorp",
-  quote:
-    "Working with David was a game-changer. His expertise in full-stack development helped us scale our product with ease. His attention to detail and passion for quality are unmatched.",
-  image: personImage,
-};
