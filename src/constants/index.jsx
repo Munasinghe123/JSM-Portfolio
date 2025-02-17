@@ -15,11 +15,12 @@ import {
   RiCodeSSlashLine,
   RiGitBranchLine,
 } from "@remixicon/react";
+import { FaDocker } from 'react-icons/fa';
+
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
-  { label: "Work Experience", href: "#work" },
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
@@ -83,36 +84,36 @@ export const PROJECTS = [
 export const SKILLS = [
   {
     name: "HTML5",
-    icon: <RiHtml5Line className="text-orange-600" />,
+    icon: <RiHtml5Line className="text-orange-600 w-10 h-10" />,
   },
   {
     name: "CSS3",
-    icon: <RiCss3Line className="text-blue-500" />,
+    icon: <RiCss3Line className="text-blue-500 w-10 h-10" />,
   },
   {
     name: "JavaScript",
-    icon: <RiJavascriptLine className="text-yellow-500" />,
+    icon: <RiJavascriptLine className="text-yellow-500 w-10 h-10" />,
   },
   {
     name: "React",
-    icon: <RiReactjsLine className="text-blue-400" />,
+    icon: <RiReactjsLine className="text-blue-400 w-10 h-10" />,
   },
   {
     name: "Node.js",
-    icon: <RiNodeTree className="text-green-500" />,
+    icon: <RiNodeTree className="text-green-500 w-10 h-10" />,
   },
   {
     name: "MongoDB",
-    icon: <RiDatabaseLine className="text-green-600" />,
+    icon: <RiDatabaseLine className="text-green-600 w-10 h-10" />,
   },
   {
     name: "Tailwind CSS",
-    icon: <RiCodeSSlashLine className="text-teal-400" />,
+    icon: <RiCodeSSlashLine className="text-teal-400 w-10 h-10" />,
   },
   {
-    name: "Docker",
-    icon: <RiGitBranchLine className="text-pink-400" />,
-  },
+    name:"Docker",
+    icon:<FaDocker className='text-blue-600 w-10 h-10'/>
+  }
 ];
 
 export const EDUCATION = [
