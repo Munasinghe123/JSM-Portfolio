@@ -1,6 +1,6 @@
 import academix from '../assets/academix.png'
 import Employee from '../assets/Employee-management.png'
-import color from '../assets/colorAnalyser.png'
+import color from '../assets/colorAnalyzer.png'
 import classEase from '../assets/classEase.png'
 
 import {
@@ -42,7 +42,7 @@ export const PROJECTS = [
     " Implements microservices architecture for course management, user authentication, and payment processing." ,
     techStack: ["React", "Node.js", "Express", "MongoDB", "Docker","Tailwind css"],
     imgSrc:academix,
-    // link: "https://example-ecommerce.com",
+     link: "https://github.com/Munasinghe123/Academix-Online-Education-Platform",
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ export const PROJECTS = [
       "Faculty and students can log in to access their respective accounts and timetables.",
     techStack: ["React", "Node.js", "Express", "MongoDB"],
     imgSrc: classEase,
-    // link: "https://example-socialapp.com",
+    link: "https://github.com/Munasinghe123/classEase",
   },
   {
     id: 3,
@@ -66,17 +66,17 @@ export const PROJECTS = [
     "Developed a dynamic salary calculation feature and automated PDF report generation.",
     techStack: ["React", "Node.js", "Express", "MongoDB"],
     imgSrc: Employee,
-    // link: "https://myportfolio.com",
+    link: "https://github.com/Munasinghe123/Employee-management-system",
   },
   {
     id: 4,
-    title: "Image Processing System",
+    title: "Color Analyzer-Image Processing System",
     description:
     "This is an individual project developed using the MERN stack and Sharp library where users upload images of waste water,"+ 
     "and the system calculates the required chemical percentage  to purify the waste water.",
     techStack: ["React", "Node.js", "Express", "MongoDB"],
     imgSrc: color,
-    // link: "https://example-blogplatform.com",
+    link: "https://github.com/Munasinghe123/ColorAnalyzer",
   }
 ];
 
