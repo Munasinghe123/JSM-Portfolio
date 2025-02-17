@@ -1,6 +1,7 @@
 
 import Navbar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
+import Projects from "./components/Projects";
 
 const App=()=>{
   return(
@@ -10,6 +11,7 @@ const App=()=>{
         <div className="relative z-10">
           <Navbar/>
           <HeroSection/>
+          <Projects/>
         </div>
       </main>
     </>
