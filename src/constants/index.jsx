@@ -15,8 +15,8 @@ import {
   RiCodeSSlashLine,
   RiGitBranchLine,
 } from "@remixicon/react";
-import { FaDocker } from 'react-icons/fa';
-
+import { FaDocker} from 'react-icons/fa';
+import {SiExpress} from 'react-icons/si';
 
 export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
@@ -83,14 +83,7 @@ export const PROJECTS = [
 ];
 
 export const SKILLS = [
-  {
-    name: "HTML5",
-    icon: <RiHtml5Line className="text-orange-600 w-10 h-10" />,
-  },
-  {
-    name: "CSS3",
-    icon: <RiCss3Line className="text-blue-500 w-10 h-10" />,
-  },
+  
   {
     name: "JavaScript",
     icon: <RiJavascriptLine className="text-yellow-500 w-10 h-10" />,
@@ -104,6 +97,10 @@ export const SKILLS = [
     icon: <RiNodeTree className="text-green-500 w-10 h-10" />,
   },
   {
+    name: "Express.js",
+    icon: <SiExpress className="text-green-600 w-10 h-10" />, 
+  },
+  {
     name: "MongoDB",
     icon: <RiDatabaseLine className="text-green-600 w-10 h-10" />,
   },
@@ -114,7 +111,15 @@ export const SKILLS = [
   {
     name:"Docker",
     icon:<FaDocker className='text-blue-600 w-10 h-10'/>
-  }
+  },
+  {
+    name: "HTML5",
+    icon: <RiHtml5Line className="text-orange-600 w-10 h-10" />,
+  },
+  {
+    name: "CSS3",
+    icon: <RiCss3Line className="text-blue-500 w-10 h-10" />,
+  },
 ];
 
 export const EDUCATION = [
@@ -135,7 +140,7 @@ export const EDUCATION = [
   {
     id: 3,
     degree: "G.C.E. Ordinary Level (2016) - English Medium",
-    institution: "Thakshila College Gampaha (2015-2016))",
+    institution: "Thakshila College Gampaha (2015-2016)",
     duration: "2015-2016",
     results:
       "Results - 8 A s including Information and Communication Technology  and 1 C ",
@@ -147,42 +152,35 @@ export const CERTIFICATIONS=[
     id:1,
     name:"MERN 2025 Edition - MongoDB, Express, React and NodeJS",
     institution:"Udemy",
-    date:"February 2025"
   },
   {
     id:2,
     name:"Introduction to SQL",
     institution:"Solo learn",
-    date:"June 2024"
   },
   {
     id:3,
     name:"Introduction to Java",
     institution:"Solo learn",
-    date: "February 2024"
   },
   {
     id:4,
     name:"Introduction to JavaScript",
     institution:"Solo learn",
-    date:"June 2024"
   },
   {
     id:5,
     name:"Java Intermediate",
     institution:"Solo learn",
-    date : "June 2024"
   },
   {
     id:6,
     name:"JavaScript Intermediate",
     institution:"Solo learn",
-    date: "July 2024"
   },
   {
     id:7,
     name:"SQL Intermediate",
     institution:"Solo learn",
-    date:"June 2024"
   }
 ]
