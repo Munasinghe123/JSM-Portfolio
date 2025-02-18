@@ -40,9 +40,13 @@ const Contact = () => {
         <h1 className="fade-in mb-8 text-center text-3xl font-medium lg:text-4xl">Contact</h1>
 
         <div className="fade-in text-center mb-5 text-lg lg:text-xl">
-          <p>Feel free to contact me through email:</p>
+          <p>Feel free to contact me through email and phone:</p>
           <a href="mailto:jsan39196@gmail.com" className="underline">
             jsan39196@gmail.com
+          </a> <br/>
+
+          <a href="tel:+94726221723" className="underline">
+            0726221723
           </a>
         </div>
 
