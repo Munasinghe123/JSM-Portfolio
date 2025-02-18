@@ -45,7 +45,6 @@ const Certification = () => {
             >
               <h1 className="text-2xl mb-2">{certificate.name}</h1>
               <h2 className="lg:text-xl text-sm">{certificate.institution}</h2>
-              <p className="mt-3 lg:text-xl text-sm">{certificate.date}</p>
               <br />
             </div>
           ))}

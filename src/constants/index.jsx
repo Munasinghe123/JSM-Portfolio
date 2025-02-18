@@ -152,42 +152,35 @@ export const CERTIFICATIONS=[
     id:1,
     name:"MERN 2025 Edition - MongoDB, Express, React and NodeJS",
     institution:"Udemy",
-    date:"February 2025"
   },
   {
     id:2,
     name:"Introduction to SQL",
     institution:"Solo learn",
-    date:"June 2024"
   },
   {
     id:3,
     name:"Introduction to Java",
     institution:"Solo learn",
-    date: "February 2024"
   },
   {
     id:4,
     name:"Introduction to JavaScript",
     institution:"Solo learn",
-    date:"June 2024"
   },
   {
     id:5,
     name:"Java Intermediate",
     institution:"Solo learn",
-    date : "June 2024"
   },
   {
     id:6,
     name:"JavaScript Intermediate",
     institution:"Solo learn",
-    date: "July 2024"
   },
   {
     id:7,
     name:"SQL Intermediate",
     institution:"Solo learn",
-    date:"June 2024"
   }
 ]
