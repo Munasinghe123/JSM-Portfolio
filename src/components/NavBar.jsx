@@ -42,7 +42,7 @@ const Navbar = () => {
                         {NAVIGATION_LINKS.map((item, index) => (
                             <li key={index} className="whitespace-nowrap">
                             <a
-                                className="text-sm hover:text-stone-300"
+                                className="text-lg hover:text-stone-300"
                                 href={item.href}
                                 onClick={(e) => handleClick(e, item.href)}
                             >
