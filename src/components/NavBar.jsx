@@ -1,6 +1,8 @@
 import { RiCloseLine } from "@remixicon/react";
 import { useState } from "react";
 import { NAVIGATION_LINKS } from "../constants";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -58,15 +60,11 @@ const Navbar = () => {
                     <div className="flex items-center justify-between">
                         <a href="#" className="pl-2 uppercase">Jayathu Sankalpa Munasinghe</a>
                         <button
-                            className="focus:outline-none lg:hidden"
+                            className="focus:outline-none lg:hidden mr-2"
                             onClick={toggleMobileMenu}
-                            aria-label={isMobileMenuOpen ? "Close Menu" : "Open Menu"}
                         >
-                            {isMobileMenuOpen ? (
-                                <RiCloseLine className="m-2 h-6 w-5" />
-                            ) : (
-                                <span className="m-2 h-6 w-5">☰</span>
-                            )}
+                            <FontAwesomeIcon icon={isMobileMenuOpen ? faTimes : faBars}/>
+
                         </button>
                     </div>
 
