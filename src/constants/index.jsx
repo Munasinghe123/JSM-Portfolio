@@ -27,7 +27,7 @@ export const NAVIGATION_LINKS = [
 ];
 
 export const PROFILE = {
-  name: "Jayathu Sankalpa Munasinghe",
+  name: "Jayathu Sankalpa Munasinghe jaya",
   role: "Undergraduate",
   subheading:
   "Third-year Software Engineering undergraduate with hands-on experience in full-stack web development."+
