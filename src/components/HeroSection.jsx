@@ -3,9 +3,7 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { PROFILE } from "../constants";
 import jaya from "../assets/jaya.jpg";
-import { RiArrowRightUpLine } from "@remixicon/react";
 
-// Register the ScrollTrigger plugin
 gsap.registerPlugin(ScrollTrigger);
 
 const HeroSection = () => {
@@ -23,8 +21,7 @@ const HeroSection = () => {
         trigger: heroRef.current,
         start: "top 80%",
         toggleActions: "restart none restart none",
-        immediateRender:false,
-        // This will re-trigger the animation every time the section comes into view.
+        immediateRender: false,
       },
     });
 
@@ -47,6 +44,7 @@ const HeroSection = () => {
 
   return (
     <section
+      id="hero"  
       className="flex min-h-screen flex-col items-center justify-center gap-4 lg:gap-6"
       ref={heroRef}
     >
