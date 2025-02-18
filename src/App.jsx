@@ -2,6 +2,9 @@
 import Navbar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
 import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Education from "./components/Education";
+import Certififation from "./components/Certifications";
 
 const App=()=>{
   return(
@@ -12,6 +15,9 @@ const App=()=>{
           <Navbar/>
           <HeroSection/>
           <Projects/>
+          <Skills/>
+          <Education/>
+          <Certififation/>
         </div>
       </main>
     </>
