@@ -22,6 +22,7 @@ export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Education", href: "#education" },
+  {label:"Certification", href:"#certification"},
   { label: "Contact", href: "#contact" },
 ];
 
@@ -119,26 +120,69 @@ export const SKILLS = [
 export const EDUCATION = [
   {
     id: 1,
-    degree: "Bachelor of Science in Computer Science",
-    institution: "Stanford University",
-    duration: "2012 - 2016",
-    description:
-      "Graduated with honors in Computer Science, focusing on algorithms, data structures, and web development. Completed a capstone project on scalable cloud architectures.",
+    degree: "BSc (Hons) in Information Technology Specialising in Software Engineering ",
+    institution: "SLIIT",
+    duration: "2022- Present",
+    results: "CGPA - 3.34"
   },
   {
     id: 2,
-    degree: "Master of Science in Software Engineering",
-    institution: "MIT",
-    duration: "2016 - 2018",
-    description:
-      "Focused on advanced software engineering concepts, system design, and AI technologies. Completed a thesis on machine learning applications in real-time data processing.",
+    degree: "G.C.E. Advanced Level (2021) - Arts Stream",
+    institution: "Bandaranayake College Gampaha ",
+    duration: "2017 - 2019",
+    results:"Results - Information and Communication Technology - C \n Geography - A \n History - C\n General English - A\n Z-Score : 1.1920" 
   },
   {
     id: 3,
-    degree: "Certified React Developer",
-    institution: "Udacity Nanodegree",
-    duration: "2019",
-    description:
-      "Earned a certification in advanced React.js development, including hooks, context API, and performance optimization.",
+    degree: "G.C.E. Ordinary Level (2016) - English Medium",
+    institution: "Thakshila College Gampaha (2015-2016))",
+    duration: "2015-2016",
+    results:
+      "Results - 8 A s including Information and Communication Technology  and 1 C ",
   },
 ];
+
+export const CERTIFICATIONS=[
+  {
+    id:1,
+    name:"MERN 2025 Edition - MongoDB, Express, React and NodeJS",
+    institution:"Udemy",
+    date:"February 2025"
+  },
+  {
+    id:2,
+    name:"Introduction to SQL",
+    institution:"Solo learn",
+    date:"June 2024"
+  },
+  {
+    id:3,
+    name:"Introduction to Java",
+    institution:"Solo learn",
+    date: "February 2024"
+  },
+  {
+    id:4,
+    name:"Introduction to JavaScript",
+    institution:"Solo learn",
+    date:"June 2024"
+  },
+  {
+    id:5,
+    name:"Java Intermediate",
+    institution:"Solo learn",
+    date : "June 2024"
+  },
+  {
+    id:6,
+    name:"JavaScript Intermediate",
+    institution:"Solo learn",
+    date: "July 2024"
+  },
+  {
+    id:7,
+    name:"SQL Intermediate",
+    institution:"Solo learn",
+    date:"June 2024"
+  }
+]

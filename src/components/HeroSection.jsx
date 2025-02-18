@@ -25,14 +25,6 @@ const HeroSection=()=>{
             <p className="hero-text max-w-2xl p-2 text-center text-xl tracking-tighter lg:text-2xl">
                 {PROFILE.subheading}
             </p>
-            <a href={"Jayathu-Sankalpa-CV.pdf"} 
-            className="border white rounded-full flex mb-6 w-auto p-4 border-pink-200/50">
-            <span>
-                    Download Resume
-                </span>
-                <RiArrowRightUpLine/>
-
-            </a>
             
             <img src={jaya} className="rounded-3xl w-60 border border-purple-300/20 p-1"/>
 
