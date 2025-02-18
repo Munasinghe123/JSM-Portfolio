@@ -17,7 +17,7 @@ const HeroSection=()=>{
                     {PROFILE.name}
                 </h1>
 
-                <h2 className="mt-[10px] bg-gradient-to-b from-pink-200 to purple-300 bg-clip-text text-center text-4xl
+                <h2 className="hero-subheading mt-[10px] bg-gradient-to-b from-pink-200 to purple-300 bg-clip-text text-center text-4xl
                 tracking-tighter text-transparent">
                     {PROFILE.role}
                 </h2>
@@ -26,7 +26,7 @@ const HeroSection=()=>{
                 {PROFILE.subheading}
             </p>
             
-            <img src={jaya} className="rounded-3xl w-60 border border-purple-300/20 p-1"/>
+            <img src={jaya} className="hero-img rounded-3xl w-60 border border-purple-300/20 p-1"/>
 
         </section>
     )
