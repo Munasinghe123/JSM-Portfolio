@@ -102,7 +102,7 @@ export const SKILLS = [
   },
   {
     name: "MongoDB",
-    icon: <SiNodedotjs className="text-green-600 w-10 h-10" />,
+    icon: <SiMongodb className="text-green-600 w-10 h-10" />,
   },
   {
     name: "Tailwind CSS",
